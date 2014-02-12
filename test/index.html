@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <title>Keyring</title>
+</head>
+<body>
+
+  <h1>Keyring</h1>
+
+  <p><a href="#">Link</a></p>
+  <p><input type="text"></p>
+  <p><input type="number"></p>
+  <p><input type="date"></p>
+  <p><input type="time"></p>
+  <p><input type="checkbox"></p>
+  <p><input type="radio"></p>
+  <p><select><option selected>Foo</option><option>Bar</option></select></p>
+  <p><button type="submit">Submit Button</button></p>
+  <p><button type="button">Button</button></p>
+  <p><span role="button" tabindex="0">[role="button"]</span></p>
+
+  <script src="../build/build.js"></script>
+  <script>
+    var Keyring = require('keyring');
+    var focusRingManager = new Keyring();
+
+    // Check that our Keyring is really a singleton.
+    var b = new Keyring();
+    console.log(focusRingManager === b);
+  </script>
+</body>
+</html>
