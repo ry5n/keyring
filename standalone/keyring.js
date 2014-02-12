@@ -1,3 +1,9 @@
+/**!
+ * Keyring 0.0.3
+ * Removes focus outlines for mouse, retaining them for keyboard users.
+ * Ryan L. Frederick
+ * @license MIT
+ */
 ;(function(){
 
 var slice = [].slice;

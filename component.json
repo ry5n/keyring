@@ -2,7 +2,7 @@
   "name": "keyring",
   "repo": "ry5n/keyring",
   "description": "Removes focus outlines for mouse, retaining them for keyboard users.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "keywords": ["focus", "outline", "accessibility", "a11y"],
   "dependencies": {
     "ry5n/listener": "*",
