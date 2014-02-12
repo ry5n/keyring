@@ -1,23 +1,33 @@
 
-# bifocal
+# Keyring
 
-  Removes visual focus outlines for mouse interaction only.
+  Component to remove focus outlines for mouse only, retaining them for keyboard users.
 
-## Installation
+  Based on Lindsay Evans’ [Outline JS](https://github.com/lindsayevans/outline.js) inspired by ideas from [Paciello Group](http://www.paciellogroup.com/blog/2012/04/how-to-remove-css-outlines-in-an-accessible-manner/).
 
-  Install with [component(1)](http://component.io):
 
-    $ component install ry5n/bifocal
+## Installation Options
+
+  - Download one of the standalone packages; the Keyring object is available as a browser global at `window.Keyring`.
+
+  - Or install with [component(1)](http://component.io):
+    ```bash
+    $ component install ry5n/keyring
+    ```
+
 
 ## API
 
+  ### new Keyring()
+
+  Initialize a new Keyring singleton, which manages visibility of focus rings automatically.
 
 
 ## License
 
   The MIT License (MIT)
 
-  Copyright (c) 2014 <copyright holders>
+  Copyright (c) 2014 Ryan L. Frederick
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
